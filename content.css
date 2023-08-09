@@ -123,3 +123,13 @@ text-decoration:none;
   overflow:hidden;
 
 }
+
+#bg-image {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+}
