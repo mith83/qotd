@@ -1,21 +1,22 @@
 #quoteswidget {
-	background-color: black;
-	border: 1px solid black;
-	color:white;
+background-color: black;
+border: 1px solid black;
+color:white;
     display: block;
-	max-width:640px;
-	min-width:320px;
-	min-height:250px;
-	width:100%;
-    margin: 0;
+max-width:640px;
+min-width:320px;
+min-height:427px;
+max-height:640px;
+width:100%;
+    margin: 0 auto;
     position: relative;
-	left:0;
-	top:0;
+left:0;
+top:0;
     visibility: inherit;
-	z-index: 90;
+z-index: 90;
     -webkit-user-select: none;
-	overflow:hidden;
-	}
+overflow:hidden;
+}
 
 #quoteswidget #sharing {
 position: absolute;
@@ -62,57 +63,58 @@ fill: white;
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-	
-#quote { 
-	position:absolute; 
-	z-index: 92; 
-	color:white;	
-	top:50%;
-	left:5%;
-	font-family:Helvetica;
-	font-size:100%; 
-	width:65%; 
-	padding:10px; 
-	margin-bottom:50px;
-	text-align:left;
-	
+
+#quote {
+position:absolute;
+z-index: 92;
+color:white;
+top:50%;
+left:5%;
+font-family:Helvetica;
+font-size:100%;
+width:65%;
+padding:10px;
+margin-bottom:50px;
+text-align:left;
+
 }
 
-@media only screen and (max-width: 468px) {
-  #quote { font-size:70%;}                }
+@media only screen and (max-width: 640px) {
+  #quote { font-size:70%; text-align:center;top: 70%;left: 50%;transform: translate(-50%, -50%);
+}}
 
-#quoteswidget a { 
+#quoteswidget a {
 color:white;
 text-decoration:none;
 }
 
 #branding {
-	position:absolute;
-	z-index: 93;
-	width:100%;
-	padding:10px;
-	bottom:10px;
-	text-align:center;
+position:absolute;
+z-index: 93;
+width:100%;
+padding:10px;
+bottom:10px;
+text-align:center;
 }
 
 #formdiv {
-	position:absolute;
-	
+position:absolute;
+
 }
 
 #branding a {
-	text-decoration:none;
-	color: white;
-	font-size:0.5rem;
-	font-family:Helvetica, sans-serif;
+text-decoration:none;
+color: white;
+font-size:0.5rem;
+font-family:Helvetica, sans-serif;
 }
 
 #backgroundimg {
-	max-width:130%;
-	height:100%;
-	z-index: 91;
-	padding-top: 3px;
-	object-fit:fill;
+max-width:130%;
+height:100%;
+z-index: 91;
+padding-top: 3px;
+object-fit:fill;
 
 }
 #overlay {
