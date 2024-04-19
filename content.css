@@ -110,6 +110,7 @@ font-family:Helvetica, sans-serif;
 #backgroundimg {
 max-width:130%;
 height:100%;
+min-height:427px;
 z-index: 91;
 padding-top: 3px;
 object-fit:fill;
