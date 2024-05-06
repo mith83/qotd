@@ -79,7 +79,7 @@ text-align:left;
 
 }
 
-@media only screen and (max-width: 468px) {#quote { text-align:center;width:75%; top: 60%;left: 50%;transform: translate(-50%, -50%);}#backgroundimg {min-height:427px}}
+@media only screen and (max-width: 468px) {#quote { text-align:center;width:75%; top: 60%;left: 50%;transform: translate(-50%, -50%);}#backgroundimg {min-height:427px;max-width:140%;}}
 
 #quoteswidget a {
 color:white;
